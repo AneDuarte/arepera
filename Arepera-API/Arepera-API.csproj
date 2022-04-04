@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Arepera_API</RootNamespace>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <ProjectReference Include="..\Arepera-data\Arepera-data.csproj" />
+    <ProjectReference Include="..\Arepera-shared\Arepera-shared.csproj" />
+  </ItemGroup>
+
+</Project>
